@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon " type="x-icon" href="back22.png">
+    <title>personal portfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e9809a8dad.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="Rahul jha-logos_white.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <!-- <li><a href="#portfolio">Portfolio</a></li> -->
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+             <div class="header-text">
+              <P>Web Developer</P>
+              <h1>Hi, i am <span>Rahul Jha</span><br> From Nepal</h1>
+             </div>
+        </div>
+    </div>
+    <!-- -------------about----------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="userr.png" >
+                </div>
+                 <div class="about-col-2">
+                  <h1 class="sub-title">About me</h1>
+                    <P>
+                        
+                        Hello, I'm Rahul Jha, a passionate UI/UX Designer and Web/App Developer based in Hyderabad. With a year of hands-on experience from my internship at a web studio, I am dedicated to creating seamless and visually engaging digital experiences.
+                        
+                        <h3>Who I Am</h3>
+                        I am Rahul Jha, a budding professional in the field of UI/UX design and web/app development. My one-year internship at a dynamic web studio has honed my skills and fueled my enthusiasm for crafting user-centric designs and robust digital solutions.
+                        
+                        <h3>My Approach</h3>
+                        I believe in blending creativity with functionality. My approach to design and development is rooted in creating not just visually appealing interfaces but also ensuring a smooth and intuitive user experience. From wireframes to polished products, I am committed to delivering excellence.
+                        
+                        <h3>Why Choose Me</h3>
+                        Experience: With a year of hands-on experience in a web studio, I have been actively involved in various UI/UX design and development projects.
+                        Versatility: My skills span UI/UX design, web development, and app development, making me a versatile professional capable of handling diverse aspects of digital projects.
+                        Innovation: I stay abreast of the latest design trends and technologies, ensuring that the solutions I create are both contemporary and future-proof.
+                         
+                        <h3>Let's Connect</h3>
+                        I am eager to connect with like-minded individuals and explore opportunities for collaboration. If you are passionate about creating exceptional digital experiences or have a project that could benefit from my skills, let's connect!
+                        
+                        Thank you for taking the time to explore my portfolio. I'm excited about the prospect of contributing to innovative projects and look forward to connecting with you..</P> 
+                    <div class="tab-title">
+                        <p class="tab-links active-link" onclick="opentab('skills')" >Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')" >Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                            <li><span>Web development</span><br>Web App Development</li>
+                            <li><span>Data analyst</span><br>Coding for data analytics</li>
+                            <li><span>Machine learning</span><br>Development and study of statistical algorithms</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023</span><br>Intern at internship web studio <br> Web development</li>
+                             </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2023</span><br>Web development Traning at internship Studio</li>
+                            <li><span>2023</span><br>UI/UX designing traning</li>
+                            <li><span>2022-2026</span><br>B.tech in computer Science engineering from GNITC,Hyderabad</li>
+                            <li><span>2020-2022</span><br>+2 from greenland international campus , Biratnagar,Nepal</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- ---------------services---------- -->
+    <div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web design</h2>
+                <P>Welcome to Rahul Jha Web Development Services, where innovation meets functionality. With a focus on delivering tailored web solutions, I offer a range of services to elevate your online presence and meet your unique business needs.</P>
+                <a href="#" >learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2>UI/UX design</h2>
+                <P>Welcome to my UI/UX design services, where every pixel matters, and user experience takes center stage. I specialize in creating visually stunning and intuitively functional interfaces that captivate users and elevate your digital presence.</P>
+                <a href="#" >learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App design</h2>
+                <P>Welcome to my App Design services! I specialize in creating visually stunning and user-friendly mobile applications that not only meet but exceed your expectations. </P>
+                <a href="#" >learn more</a>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- ---------------p0ortfolio -->
+     <!-- <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" >
+                    <div class="layer">
+                        <h3>social media app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem et beatae incidunt facere reprehenderit nihil itaque quam quos iure omnis, eum laudantium cupiditate sint nisi earum saepe! Maiores, numquam.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" >
+                    <div class="layer">
+                        <h3>music app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem et beatae incidunt facere reprehenderit nihil itaque quam quos iure omnis, eum laudantium cupiditate sint nisi earum saepe! Maiores, numquam.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" >
+                    <div class="layer">
+                        <h3>online shoping app</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam quidem et beatae incidunt facere reprehenderit nihil itaque quam quos iure omnis, eum laudantium cupiditate sint nisi earum saepe! Maiores, numquam.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn"> See more </a>
+        </div>
+    </div>  -->
+    <!-- ---------------contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left"> 
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>rjha72240@gmail.com</p>
+                    <p> <i class="fa-solid fa-phone"></i>+91 8660032653</p>
+                     <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100092345642777&sk=about"><i class="fa-brands fa-facebook "></i></a>
+                        <a href="https://x.com/rjha72240?t=2pQtBrlxT8ax4TLrFevOJg&s=09"><i class="fa-brands fa-twitter-square "></i></a>
+                        <a href="https://www.instagram.com/rahuljha_3?igsh=MWprZTAzaTY5eTQzbg=="><i class="fa-brands fa-instagram "></i></a>
+                        <a href="https://www.linkedin.com/in/rahul-jha-556505272/"><i class="fa-brands fa-linkedin "></i></a>
+                     </div>
+                     <a href="CVup.docx" download class="btn btn2">Download cv</a>
+
+                </div>
+                <div class="contact-right"> 
+                    <!-- ----------form -->
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @Rahul.j   <i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname) {
+          for(tablink of tablinks){
+              tablink.classList.remove("active-link");
+         }
+         for(tabcontent of tabcontents){
+              tabcontent.classList.remove("active-tab");
+         }
+         event.currentTarget.classList.add("active-link");
+         document.getElementById(tabname).classList.add("active-tab");
+
+    
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right="0"
+        }
+        function closemenu(){
+            sidemenu.style.right="-200px"
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwUmkJRF7ngPVaV_nvZ1nITMtQZoVSSC6YohoH066e6whq9FFjNAjOaIJIUU9LbOOlPhg/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+          e.preventDefault()
+          fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+            .then(response => {
+                msg.innerHTML = "Message sent sucessfully"
+                setTimeout(function() {
+                    msg.innerHTML = ""
+                }, 5000)
+                form.reset()
+            })
+            .catch(error => console.error('Error!', error.message))
+        })
+      </script>
+</body>
+</html>
